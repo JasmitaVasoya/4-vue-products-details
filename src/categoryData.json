@@ -1,0 +1,87 @@
+{
+  "Image & Sound": {
+    "image": "/list-1.png",
+    "name": "Image & Sound",
+    "subProduct": [
+      {
+        "name": "Televisions",
+        "image": "/main-1.png",
+        "subProduct": [
+          [
+            {
+              "image": "/sub-1.png",
+              "name": "Google Chromecast with Google TV 2K",
+              "price": "45000"
+            }
+          ],
+          [
+            {
+              "image": "/sub-2.png",
+              "name": "Google Chromecast with Google",
+              "price": "30000"
+            }
+          ],
+          [
+            {
+              "image": "/sub-3.png",
+              "name": "Samsung Q-series Soundbar",
+              "price": "10000"
+            }
+          ]
+        ]
+      },
+      {
+        "name": "Televisions accessories",
+        "image": "/main-2.png",
+        "subProduct": [
+          [{ "image": "/sub-1.png", "name": "GP opt.bat", "price": "45460" }],
+          [{ "image": "/sub-2.png", "name": "URC1913", "price": "30230" }],
+
+          [
+            {
+              "image": "/sub-3.png",
+              "name": "Denon DHT-S416",
+              "price": "89000"
+            }
+          ]
+        ]
+      },
+      {
+        "name": "Home cinema",
+        "image": "/main-3.png",
+        "subProduct": [
+          [
+            { "image": "/sub-1.png", "name": "Samsung WW90T", "price": "48860" }
+          ],
+          [{ "image": "/sub-2.png", "name": "UeC1913", "price": "30230" }],
+
+          [{ "image": "/sub-3.png", "name": "Denon S456", "price": "84500" }]
+        ]
+      },
+      {
+        "name": "Speakers",
+        "image": "/main-4.png",
+        "subProduct": [
+          [
+            {
+              "image": "/sub-1.png",
+              "name": "Denon Home 150",
+              "price": "78860"
+            }
+          ],
+          [{ "image": "/sub-2.png", "name": "PHILIPS BT55W", "price": "3020" }],
+          [{ "image": "/sub-3.png", "name": "Cavus Sonos", "price": "84500" }]
+        ]
+      }
+    ]
+  },
+  "Computers & Tablets": {
+    "image": "/list-2.png",
+    "name": "Computers & Tablets"
+  },
+  "Household & Living": {
+    "image": "/list-3.png",
+    "name": "Household & Living"
+  },
+  "Kitchen": { "image": "/list-4.png", "name": "Kitchen" }
+}
