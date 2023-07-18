@@ -1,4 +1,4 @@
-# ep-tummer-clone
+# Product details page
 
 ## Project setup
 ```
