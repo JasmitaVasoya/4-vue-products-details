@@ -1,15 +1,20 @@
 <template>
-  <div v-for="(item, index) in selectedProduct" :key="index">
-    <img alt="Vue logo" :src="imagePath(item.image)" />
-    <button @click="onClickMainProduct(item.subProduct)">
-      {{ item.name }}
-    </button>
+  <div class="row">
+    <div
+      v-for="(item, index) in selectedProduct"
+      :key="index"
+      @click="onClickMainProduct(item.subProduct)"
+      class="column"
+    >
+      <img alt="Vue logo" :src="imagePath(item.image)" class="img" />
+      <div class="list">
+        {{ item.name }}
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-
-
 export default {
   name: "MainProduct",
   props: {

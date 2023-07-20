@@ -1,8 +1,8 @@
 <template>
   <div v-for="(item, index) in selectedProduct" :key="index">
     <img alt="Vue logo" :src="imagePath(item.image)" />
-    <h1>{{ item.name }}</h1>
-    <span>Price : {{ item.price }}</span>
+    <h1 class="item-name">{{ item.name }}</h1>
+    <span class="price">Price : {{ item.price }}</span>
   </div>
 </template>
 
@@ -26,4 +26,12 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+.item-name {
+  color: #04a64a;
+}
+.price {
+  font-size: 25px;
+  color: #aaeff7;
+}
+</style>

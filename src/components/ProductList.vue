@@ -6,9 +6,10 @@
       @click="onClickProduct(item.subProduct)"
       class="column"
     >
-      <img alt="Vue logo" :src="imagePath(item.image)" class="img" /><span class="list">
+      <img alt="Vue logo" :src="imagePath(item.image)" class="img" />
+      <div class="list">
         {{ item.name }}
-      </span>
+      </div>
     </div>
   </div>
 </template>
@@ -36,9 +37,9 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .list {
-  margin-top: 11px;
+  margin-top: 27px;
 }
 .column {
   display: flex;
@@ -53,6 +54,8 @@ export default {
 }
 .img {
   margin-right: 20px;
+  width: 83px;
+  height: 83px;
 }
 
 /* Clear floats after the columns */
@@ -60,9 +63,5 @@ export default {
   content: "";
   display: table;
   clear: both;
-}
-
-* {
-  box-sizing: border-box;
 }
 </style>
